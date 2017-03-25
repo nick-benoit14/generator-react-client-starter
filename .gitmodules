@@ -1,0 +1,3 @@
+[submodule "generators/templates/react_client_starter_app"]
+	path = generators/templates/react_client_starter_app
+	url = git@github.com:atomicjolt/react_client_starter_app.git
