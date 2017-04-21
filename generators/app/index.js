@@ -25,7 +25,7 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copy(
-      this.templatePath('react_client_starter_app/**/*'),
+      this.templatePath('react_client_starter_app/**/!(.git)'),
       this.destinationPath(''),
       {globOptions: {dot: true}}
     );
@@ -35,5 +35,6 @@ module.exports = class extends Generator {
 
   install() {
     this.yarnInstall();
+    // TODO how to initialize git repository
   }
 };
