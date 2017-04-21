@@ -23,14 +23,16 @@ module.exports = class extends Generator {
     });
   }
 
+  default() {
+    // this.composeWith(require.resolve('generator-license'));
+  }
+
   writing() {
     this.fs.copy(
       this.templatePath('react_client_starter_app/**/!(.git)'),
       this.destinationPath(''),
       {globOptions: {dot: true}}
     );
-
-    console.log('Writing App!', '!!!');
   }
 
   install() {
