@@ -1,0 +1,6 @@
+[submodule "generators/app/templates/lti_starter_app"]
+	path = generators/app/templates/lti_starter_app
+	url = https://github.com/atomicjolt/lti_starter_app.git
+[submodule "generators/app/templates/react_client_starter_app"]
+	path = generators/app/templates/react_client_starter_app
+	url = https://github.com/atomicjolt/react_client_starter_app.git
