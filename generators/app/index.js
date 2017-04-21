@@ -30,11 +30,10 @@ module.exports = class extends Generator {
       {globOptions: {dot: true}}
     );
 
-    // console.log(this.templatePath());
     console.log('Writing App!', '!!!');
   }
 
   install() {
-    // this.installDependencies();
+    this.yarnInstall();
   }
 };
